@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-28T06:16:15.686Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36 Edg/86.0.622.51" etag="MfUK9ciFxyYjxUJaElau" version="13.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-28T06:24:52.798Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36 Edg/86.0.622.51" etag="-zplWZ9-VDadzbtozcoz" version="13.8.5" type="github">
   <diagram id="Ip4HYm9u0Syq62Oy8DGB" name="Page-1">
     <mxGraphModel dx="1071" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -10,32 +10,48 @@
         <mxCell id="p3zd4yh9qUal2g1miboF-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BYnugL7MRaFbII8O_Nb6-2" target="p3zd4yh9qUal2g1miboF-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BYnugL7MRaFbII8O_Nb6-2" value="Обработчик&lt;br&gt;I-файлов" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="320" y="130" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="BYnugL7MRaFbII8O_Nb6-6" style="orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;rounded=0;endArrow=none;endFill=0;dashed=1;" parent="1" source="BYnugL7MRaFbII8O_Nb6-5" target="BYnugL7MRaFbII8O_Nb6-2" edge="1">
+        <mxCell id="p3zd4yh9qUal2g1miboF-9" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.07;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="BYnugL7MRaFbII8O_Nb6-2" target="p3zd4yh9qUal2g1miboF-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BYnugL7MRaFbII8O_Nb6-5" value="&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;Каждые 5 минут&lt;/b&gt;&lt;/div&gt;Проверка ФЛК&lt;br&gt;Конвертация OpList.OP в RSUP.OP" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;strokeColor=#d6b656;fillColor=#FFFFCC;align=left;shadow=0;sketch=1;spacingLeft=10;spacingRight=10;" parent="1" vertex="1">
-          <mxGeometry x="600" y="122.5" width="220" height="75" as="geometry" />
+        <mxCell id="BYnugL7MRaFbII8O_Nb6-2" value="Обработчик&lt;br&gt;I-файлов" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="370" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BYnugL7MRaFbII8O_Nb6-6" style="orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;rounded=0;endArrow=none;endFill=0;dashed=1;exitX=1.009;exitY=0.514;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="BYnugL7MRaFbII8O_Nb6-5" target="BYnugL7MRaFbII8O_Nb6-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BYnugL7MRaFbII8O_Nb6-5" value="&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;Каждые 5 минут&lt;/b&gt;&lt;/div&gt;ФЛК проверка файлов в папке&lt;br&gt;Конвертация OpList.OP в RSUP.OP&lt;br&gt;Отправка обработанных в архив" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;strokeColor=#d6b656;fillColor=#FFFFCC;align=left;shadow=0;sketch=1;spacingLeft=10;spacingRight=10;" parent="1" vertex="1">
+          <mxGeometry x="20" y="116.25" width="220" height="87.5" as="geometry" />
         </mxCell>
         <mxCell id="BYnugL7MRaFbII8O_Nb6-8" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;startArrow=none;startFill=0;" parent="1" source="BYnugL7MRaFbII8O_Nb6-7" target="BYnugL7MRaFbII8O_Nb6-2" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="90" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="BYnugL7MRaFbII8O_Nb6-7" value="&lt;span&gt;I-файлы&lt;/span&gt;&lt;br&gt;&lt;span&gt;&amp;lt;OpList.OP&amp;gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="200" y="30" width="120" height="60" as="geometry" />
+          <mxGeometry x="250" y="30" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BYnugL7MRaFbII8O_Nb6-9" value="&lt;span&gt;F-файлы&lt;/span&gt;&lt;br&gt;&lt;span&gt;FlkP.Pr&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="440" y="30" width="120" height="60" as="geometry" />
+          <mxGeometry x="490" y="30" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="p3zd4yh9qUal2g1miboF-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="p3zd4yh9qUal2g1miboF-1" target="p3zd4yh9qUal2g1miboF-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="p3zd4yh9qUal2g1miboF-1" value="RSUP.OP&lt;br&gt;Транзакция в РС ЕРЗ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="315" y="240" width="130" height="50" as="geometry" />
+          <mxGeometry x="365" y="240" width="130" height="50" as="geometry" />
         </mxCell>
         <mxCell id="p3zd4yh9qUal2g1miboF-3" value="Обработчик&lt;br&gt;RSUP транзакций" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;gradientColor=#97d077;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="320" y="340" width="120" height="60" as="geometry" />
+          <mxGeometry x="370" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p3zd4yh9qUal2g1miboF-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=220;exitDy=69.375;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;endArrow=none;endFill=0;" edge="1" parent="1" source="p3zd4yh9qUal2g1miboF-5" target="p3zd4yh9qUal2g1miboF-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="370.005" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p3zd4yh9qUal2g1miboF-5" value="&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;Каждый день в 23:00&lt;/b&gt;&lt;/div&gt;Идентификация в РС ЕРЗ&lt;br&gt;Выявление дубликатов&lt;br&gt;Проверка правомерности&lt;br&gt;Изменение данных в РС ЕРЗ" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;strokeColor=#d6b656;fillColor=#FFFFCC;align=left;shadow=0;sketch=1;spacingLeft=10;spacingRight=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="291.25" width="220" height="108.75" as="geometry" />
+        </mxCell>
+        <mxCell id="p3zd4yh9qUal2g1miboF-8" value="Архив&lt;br&gt;обработанных&lt;br&gt;файлов" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="140" width="130" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
