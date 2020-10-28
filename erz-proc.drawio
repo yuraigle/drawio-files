@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-10-28T13:50:45.283Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36 Edg/86.0.622.51" etag="N6nZ-mSRAZtm3sVEllsD" version="13.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-28T14:28:28.425Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36 Edg/86.0.622.51" etag="GViHpnJzn0FcWsdtsTvm" version="13.8.5" type="github">
   <diagram id="Ip4HYm9u0Syq62Oy8DGB" name="Page-1">
-    <mxGraphModel dx="1185" dy="1035" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="1063" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -53,7 +53,7 @@
             <mxPoint x="650" y="370.005" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="p3zd4yh9qUal2g1miboF-5" value="&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;Каждый день в 23:00&lt;/b&gt;&lt;/div&gt;Идентификация в РС ЕРЗ&lt;br&gt;Выявление дубликатов&lt;br&gt;Проверка правомерности&lt;br&gt;Изменение данных в РС ЕРЗ" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;strokeColor=#d6b656;fillColor=#FFFFCC;align=left;shadow=0;sketch=1;spacingLeft=10;spacingRight=10;" parent="1" vertex="1">
+        <mxCell id="p3zd4yh9qUal2g1miboF-5" value="&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;Каждый день в 23:00&lt;/b&gt;&lt;/div&gt;Идентификация в РС ЕРЗ&lt;br&gt;Выявление дубликатов&lt;br&gt;Проверка правомерности&lt;br&gt;Изменение данных в РС ЕРЗ&lt;br&gt;Заявки на запрос СП" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;strokeColor=#d6b656;fillColor=#FFFFCC;align=left;shadow=0;sketch=1;spacingLeft=10;spacingRight=10;" parent="1" vertex="1">
           <mxGeometry x="20" y="270" width="220" height="108.75" as="geometry" />
         </mxCell>
         <mxCell id="p3zd4yh9qUal2g1miboF-8" value="Архив&lt;br&gt;обработанных&lt;br&gt;файлов" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;gradientColor=#b3b3b3;fillColor=#f5f5f5;strokeColor=#666666;sketch=1;" parent="1" vertex="1">
@@ -62,9 +62,9 @@
         <mxCell id="p3zd4yh9qUal2g1miboF-22" value="&lt;b&gt;ERZ&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 10px&quot;&gt;Данные о ЗЛ&lt;br&gt;в РС ЕРЗ&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;gradientColor=#d5739d;fillColor=#e6d0de;strokeColor=#996185;" parent="1" vertex="1">
           <mxGeometry x="680" y="390" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="p3zd4yh9qUal2g1miboF-39" style="edgeStyle=none;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;endArrow=none;endFill=0;dashed=1;dashPattern=1 4;" parent="1" source="p3zd4yh9qUal2g1miboF-24" edge="1">
+        <mxCell id="p3zd4yh9qUal2g1miboF-39" style="edgeStyle=none;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;endArrow=none;endFill=0;dashed=1;dashPattern=1 4;entryX=0.55;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="p3zd4yh9qUal2g1miboF-24" edge="1" target="p3zd4yh9qUal2g1miboF-8">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="702" y="200" as="targetPoint" />
+            <mxPoint x="670" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="p3zd4yh9qUal2g1miboF-24" value="&lt;b&gt;P-файлы&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 10px&quot;&gt;&amp;lt;RepList.Rep&amp;gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;" parent="1" vertex="1">
@@ -108,11 +108,29 @@
         <mxCell id="p3zd4yh9qUal2g1miboF-45" style="edgeStyle=none;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" parent="1" source="p3zd4yh9qUal2g1miboF-41" target="p3zd4yh9qUal2g1miboF-43" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="p3zd4yh9qUal2g1miboF-41" value="&lt;b&gt;Запросы в ЦС&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 10px&quot;&gt;(СП, УДЛ)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;" parent="1" vertex="1">
+        <mxCell id="p3zd4yh9qUal2g1miboF-41" value="&lt;b&gt;Заявка на запросы в ЦС ЕРЗ&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 10px&quot;&gt;(СП, УДЛ)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;" parent="1" vertex="1">
           <mxGeometry x="450" y="440" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="p3zd4yh9qUal2g1miboF-43" value="Обработчик&lt;br&gt;CSUP&lt;br&gt;транзакций" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;sketch=1;gradientColor=#97d077;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;glass=0;" parent="1" vertex="1">
           <mxGeometry x="370" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uXBpr3Ej3b3qUF1hAKN9-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=220;exitDy=80;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=1 4;endArrow=none;endFill=0;sketch=1;" edge="1" parent="1" source="uXBpr3Ej3b3qUF1hAKN9-2" target="p3zd4yh9qUal2g1miboF-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uXBpr3Ej3b3qUF1hAKN9-2" value="&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;Каждые 5 минут&lt;/b&gt;&lt;/div&gt;Формирование запросов СП&lt;br&gt;Формирование транзакций А08&lt;br&gt;&lt;br&gt;&lt;div&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;По действию оператора&lt;/b&gt;&lt;/div&gt;Приём результатов запросов СП&lt;br&gt;Приём результатов транзакций&lt;br&gt;Приём ZK3, ZK4 итд&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;strokeColor=#d6b656;fillColor=#FFFFCC;align=left;shadow=0;sketch=1;spacingLeft=10;spacingRight=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="500" width="220" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="uXBpr3Ej3b3qUF1hAKN9-6" style="edgeStyle=none;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="uXBpr3Ej3b3qUF1hAKN9-4" target="p3zd4yh9qUal2g1miboF-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uXBpr3Ej3b3qUF1hAKN9-4" value="&lt;b&gt;ZK3&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 10px&quot;&gt;Двойники с др. территорий&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="700" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uXBpr3Ej3b3qUF1hAKN9-7" style="edgeStyle=none;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="uXBpr3Ej3b3qUF1hAKN9-5" target="p3zd4yh9qUal2g1miboF-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uXBpr3Ej3b3qUF1hAKN9-5" value="&lt;b&gt;ZK4&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 10px&quot;&gt;Умершие на др. территориях&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="760" width="150" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
